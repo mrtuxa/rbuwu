@@ -1,6 +1,6 @@
 [package]
 name = "rbuwu"
-version = "0.0.4-ALPHA"
+version = "0.0.5-ALPHA"
 edition = "2021"
 description = "rust macros but in uwu"
 license = "GPL-3.0"
