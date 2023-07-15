@@ -60,9 +60,10 @@ macro_rules! eprintwn {
 mod tests {
     #[test]
     fn it_works() {
-        pwint!("One Line\n");
+        pwint!("One Line");
         let hello = "Hello";
         pwintwn!("{}", hello);
+        epwint!("epwint error");
         eprintwn!("Error");
     }
 }
