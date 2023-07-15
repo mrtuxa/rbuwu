@@ -3,7 +3,7 @@ name = "rbuwu"
 version = "0.0.1-ALPHA"
 edition = "2021"
 description = "rust macros but in uwu"
-license = "BSD"
+license = "GPL-3.0"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
