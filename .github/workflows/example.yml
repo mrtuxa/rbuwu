@@ -21,4 +21,4 @@ jobs:
       - name: Run tests
         run: cd example && cargo test --verbose
       - name: Run binary
-        run: cd example && cargo run --verbse
+        run: cd example && cargo run --verbose
