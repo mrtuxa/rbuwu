@@ -1,4 +1,4 @@
-use rbuwu::{eprintwn, epwint, pwint, pwintwn};
+use rbuwu::{epwintwn, epwint, pwint, pwintwn};
 
 fn main() {
     let hewwo = "Hewwo Wowwd";
@@ -7,5 +7,5 @@ fn main() {
     let hello = "Hello";
     pwintwn!("{}", hello);
     epwint!("epwint error");
-    eprintwn!("Error");
+    epwintwn!("Error");
 }
