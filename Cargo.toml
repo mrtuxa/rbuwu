@@ -1,9 +1,10 @@
 [package]
 name = "rbuwu"
-version = "0.0.3-ALPHA"
+version = "0.0.4-ALPHA"
 edition = "2021"
 description = "rust macros but in uwu"
 license = "GPL-3.0"
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+repository = "https://github.com/mrtuxa/rbuwu"
 
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
