@@ -1,3 +1,4 @@
+#[macro_export]
 macro_rules! pwint {
     ($($arg:tt)*) => {
         {
@@ -7,7 +8,7 @@ macro_rules! pwint {
     };
 }
 
-
+#[macro_export]
 macro_rules! pwintwn {
     () => {
         println!("");
@@ -26,6 +27,7 @@ macro_rules! pwintwn {
     };
 }
 
+#[macro_export]
 macro_rules! epwint {
     ($($arg:tt)*) => {
         {
@@ -35,6 +37,7 @@ macro_rules! epwint {
     };
 }
 
+#[macro_export]
 macro_rules! eprintwn {
     () => {
         eprintln!("");
