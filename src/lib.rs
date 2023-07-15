@@ -38,7 +38,7 @@ macro_rules! epwint {
 }
 
 #[macro_export]
-macro_rules! eprintwn {
+macro_rules! epwintwn {
     () => {
         eprintln!("");
     };
@@ -64,6 +64,6 @@ mod tests {
         let hello = "Hello";
         pwintwn!("{}", hello);
         epwint!("epwint error");
-        eprintwn!("Error");
+        epwintwn!("Error");
     }
 }
