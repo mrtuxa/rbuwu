@@ -5,5 +5,10 @@ RBuwu is a programming language that brings the adorable and charming uwu speak 
 
 # Example
 ```rust
+use rbuwu::pwintwn;
 
+fn main() {
+    let hewwo = "Hewwo Wowwd";
+    pwintwn!("{}", hewwo);
+}
 ```
