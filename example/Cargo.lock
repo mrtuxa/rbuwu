@@ -11,4 +11,4 @@ dependencies = [
 
 [[package]]
 name = "rbuwu"
-version = "0.0.4-ALPHA"
+version = "0.0.8-ALPHA"

@@ -1,4 +1,4 @@
-use rbuwu::{epwintwn, epwint, pwint, pwintwn};
+use rbuwu::{epwintwn, epwint, pwint, pwintwn, uwu_pwintwn, uwufy};
 
 fn main() {
     let hewwo = "Hewwo Wowwd";
@@ -8,4 +8,7 @@ fn main() {
     pwintwn!("{}", hello);
     epwint!("epwint error");
     epwintwn!("Error");
+    uwu_pwintwn!("hello");
+    let world = "world";
+    uwu_pwintwn!("{}", world);
 }
