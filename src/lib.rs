@@ -59,40 +59,33 @@ macro_rules! epwintwn {
 #[macro_export]
 macro_rules! uwufy {
     ($text:expr) => {{
-        let mut result = String::new();
-        let mut prev_char: char = ' ';
-        for c in $text.chars() {
+        $text.chars().fold(String::new(), |mut result, c| {
             match c {
                 'l' | 'r' => {
                     // Replace 'l' and 'r' with 'w'
                     result.push('w');
-                    prev_char = c;
                 }
                 'L' | 'R' => {
                     // Replace 'L' and 'R' with 'W'
                     result.push('W');
-                    prev_char = c;
                 }
                 'n' => {
                     // Replace 'n' with 'ny'
                     result.push('n');
                     result.push('y');
-                    prev_char = c;
                 }
                 'N' => {
                     // Replace 'N' with 'Ny'
                     result.push('N');
                     result.push('y');
-                    prev_char = c;
                 }
                 _ => {
                     // Otherwise, just add the character to the result
                     result.push(c);
-                    prev_char = c;
                 }
             }
-        }
-        result
+            result
+        })
     }};
 }
 
@@ -103,7 +96,6 @@ macro_rules! uwu_pwintwn {
         println!("{}", text);
     }};
 }
-
 
 #[cfg(test)]
 mod tests {
